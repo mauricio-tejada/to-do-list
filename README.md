@@ -2,35 +2,12 @@
 
 # 💻 Sobre o desafio
 
-Nesse desafio, você deverá criar uma aplicação para treinar o que aprendeu até agora no ReactJS
-
 Essa será uma aplicação onde o seu principal objetivo é uma pequena aplicação de atividades a fazer, para treinar um pouco mais sobre manipulação do estado no React.
 
 - Adicionar uma nova tarefa
 - Remover uma tarefa
 - Marcar e desmarcar uma tarefa como concluída
 
-A seguir veremos com mais detalhes o que e como precisa ser feito 🚀
-
-## Template da aplicação
-
-Para realizar esse desafio, criamos para você esse modelo que você deve utilizar como um template do GitHub.
-
-O template está disponível na seguinte URL: 
-
-[GitHub - rocketseat-education/ignite-template-reactjs-conceitos-do-react](https://github.com/rocketseat-education/ignite-template-reactjs-conceitos-do-react)
-
-**Dica**: Caso não saiba utilizar repositórios do GitHub como template, temos um guia em **[nosso FAQ](https://www.notion.so/FAQ-Desafios-ddd8fcdf2339436a816a0d9e45767664).**
-
-## O que devo editar na aplicação?
-
-Com o template já clonado, as depêndencias instaladas, você deve completar onde não possui código com o código para atingir os objetivos de cada teste. Nesse desafio, você deve editar apenas o seguinte arquivo para completar as funcionalidades da aplicação:
-
-- [src/components/TaskList.tsx;](https://github.com/rocketseat-education/ignite-template-reactjs-conceitos-do-react/blob/main/src/components/TaskList.tsx)
-
-### components/TaskList.tsx
-
-Esse é o componente responsável por todas as funcionalidades da aplicação, é um componente simples, mas onde botaremos em prática várias partes da manipulação do estado.
 
 Você deve criar as funcionalidades para as três funções presentes nesse arquivo, que são:
 
@@ -41,11 +18,6 @@ Você deve criar as funcionalidades para as três funções presentes nesse arqu
 ## Especificação dos testes
 
 Em cada teste, tem uma breve descrição no que sua aplicação deve cumprir para que o teste passe.
-
-<aside>
-💡 Caso você tenha dúvidas quanto ao que são os testes, e como interpretá-los, dê uma olhada em **[nosso FAQ](https://www.notion.so/FAQ-Desafios-ddd8fcdf2339436a816a0d9e45767664)**
-
-</aside>
 
 Para esse desafio, temos os seguintes testes:
 
@@ -74,7 +46,3 @@ Para que esse teste passe, você deve permitir que ao clicar no botão com ícon
 - **should be able to check a task**
 
 Para que esse teste passe, você deve permitir que ao clicar no checkbox ao lado da task, ela seja marcada como concluída ou não concluída de acordo com seu estado atual, alterando seu valor de `isComplete` de `false` para `true` ou ao contrário, de `true` para `false`. 
-
-## Como deve ficar a aplicação ao final?
-
-Está com dúvidas (ou curioso 👀) para ver como deve ficar a aplicação ao final do desafio? Deixamos abaixo um vídeo mostrando as principais funcionalidades que você deve implementar para te ajudar (ou matar sua curiosidade 👀).
