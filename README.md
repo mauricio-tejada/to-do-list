@@ -1,19 +1,21 @@
-# Desafio 01 - Conceitos do React
-
 # 💻 Sobre o desafio
 
 Essa será uma aplicação onde o seu principal objetivo é uma pequena aplicação de atividades a fazer, para treinar um pouco mais sobre manipulação do estado no React.
 
-- Adicionar uma nova tarefa
-- Remover uma tarefa
-- Marcar e desmarcar uma tarefa como concluída
 
+# Features
 
-Você deve criar as funcionalidades para as três funções presentes nesse arquivo, que são:
+- **handleCreateNewTask**: Deve ser possível adicionar uma nova task.
 
-- **handleCreateNewTask**: Deve ser possível adicionar uma nova task no estado de `tasks`, com os campos `id` que deve ser gerado de forma aleatória, `title` que deve ser um texto e `isComplete` que deve iniciar como false.
+![](/public/add-task.gif)
+
 - **handleToggleTaskCompletion:** Deve alterar o status de `isComplete` para uma task com um ID específico que é recebido por parâmetro.
+
+![](/public/complete-task.gif)
+
 - **handleRemoveTask:** Deve receber um ID por parâmetro e remover a task que contém esse ID do estado.
+
+![](/public/delete-task.gif)
 
 ## Especificação dos testes
 
